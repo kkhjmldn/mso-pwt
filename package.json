@@ -1,0 +1,78 @@
+{
+  "name": "frontend_mso",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://17.5.16.28:9001",
+  "dependencies": {
+    "@progress/kendo-drawing": "^1.6.0",
+    "@progress/kendo-react-pdf": "^3.12.0",
+    "@react-pdf/renderer": "^1.6.8",
+    "axios": "^0.19.2",
+    "bc-react-session": "^1.5.2",
+    "bootstrap": "^4.4.1",
+    "bulma": "^0.8.2",
+    "bulma-extensions": "^6.2.7",
+    "dateformat": "^3.0.3",
+    "file-saver": "^2.0.2",
+    "font-awesome": "^4.7.0",
+    "internal-ip": "^5.0.0",
+    "jquery": "^3.5.0",
+    "jspdf": "^1.5.3",
+    "jszip": "^3.3.0",
+    "jszip-utils": "^0.1.0",
+    "jzip": "^1.0.0",
+    "lorem-ipsum": "^2.0.3",
+    "material-dashboard-react": "^1.8.0",
+    "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
+    "public-ip": "^4.0.1",
+    "query-string": "^6.12.0",
+    "rasterizehtml": "^1.3.0",
+    "rc-easyui": "^1.1.3",
+    "react": "^16.13.1",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-md": "^1.16.1",
+    "react-rating": "^2.0.5",
+    "react-ratings-declarative": "^3.4.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.2.0",
+    "react-star-picker": "^1.0.2",
+    "react-star-ratings": "^2.3.0",
+    "react-to-print": "^2.6.3",
+    "react-toastify": "^5.5.0",
+    "react-vis": "^1.11.7",
+    "recharts": "^2.0.0-beta.5",
+    "redux": "^4.0.5",
+    "socket.io-client": "^2.3.0",
+    "summernote": "^0.8.16",
+    "webfontloader": "^1.6.28",
+    "xlsx": "^0.15.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://127.0.0.1:4000/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.5.0"
+  }
+}
